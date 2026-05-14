@@ -1,0 +1,10 @@
+{
+  "name": "backstage",
+  "version": "1.0.0",
+  "description": "Keep tools behind the curtain. Only conversation stays in the spotlight.",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./extensions"],
+    "image": "./images/collapsed.png"
+  }
+}
