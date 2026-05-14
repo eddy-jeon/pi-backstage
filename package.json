@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Keep tools behind the curtain. Only conversation stays in the spotlight.",
   "keywords": ["pi-package"],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
   "pi": {
     "extensions": ["./extensions"],
     "image": "./images/collapsed.png"
