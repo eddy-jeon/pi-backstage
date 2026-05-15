@@ -52,6 +52,8 @@ pi install ./pi-backstage
 
 Or copy `extensions/backstage.ts` to `.pi/extensions/`.
 
+> **Note:** If you use other extensions that override built-in tools (`read`, `bash`, `write`, `edit`, `find`, `grep`, `ls`), conflicts may occur. Disable one or the other.
+
 ## Usage
 
 | Command | Action |
